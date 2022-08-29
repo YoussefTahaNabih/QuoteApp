@@ -5,7 +5,7 @@ abstract class LocaleState extends Equatable {
   const LocaleState(this.locale);
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [locale];
 }
 
 class ChangeLocalState extends LocaleState {
